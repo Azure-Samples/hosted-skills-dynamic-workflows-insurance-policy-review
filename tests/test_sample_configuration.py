@@ -166,10 +166,10 @@ def test_representative_dynamic_workflow_plan_validates() -> None:
     assert plan.tasks[2].for_each == "${validate_request.result.documents}"
 
 
-def test_readme_uses_public_experimental_v1_terminology() -> None:
+def test_readme_does_not_assign_dynamic_workflows_a_separate_maturity_label() -> None:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
 
-    assert "currently available as public experimental v1" in readme
+    assert "public experimental v1" not in readme
     assert "Dynamic Workflows preview" not in readme
     assert "Docker (required for the Durable Task Scheduler emulator)" in readme
 

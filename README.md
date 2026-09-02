@@ -6,10 +6,10 @@ skill definition lives in [`src/main.agent.md`](src/main.agent.md), and its dete
 workflow handlers live in
 [`src/tools/policy_review_tools.py`](src/tools/policy_review_tools.py).
 
+This sample uses
 [Dynamic Workflows](https://azure.github.io/azure-functions-agents-runtime/workflows/)
-are currently available as public experimental v1. This sample prepares evidence for
-an authorized human reviewer. It never approves, denies, prices, underwrites, binds,
-cancels, renews, or changes a policy.
+to prepare evidence for an authorized human reviewer. It never approves, denies,
+prices, underwrites, binds, cancels, renews, or changes a policy.
 
 ## What it does
 

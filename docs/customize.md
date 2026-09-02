@@ -71,8 +71,8 @@ azd deploy
 ## Adjust fan-out
 
 The sample limits requests to eight documents through `_MAX_DOCUMENTS`. Dynamic
-Workflows public experimental v1 defaults to 50 total authored or materialized nodes
-and maximum parallelism of 10.
+Workflows defaults to 50 total authored or materialized nodes and maximum parallelism
+of 10.
 
 If you change the sample limit, update:
 
