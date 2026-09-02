@@ -1,0 +1,54 @@
+# Azure and local application state
+.azure/
+**/local.settings.json
+.env
+.env.*
+!.env.example
+*.publishsettings
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+.python_packages/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.mypy_cache/
+.pyright/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local output and deployment packages
+output/
+*.zip
+*.log
+
+# Azurite state
+AzuriteConfig
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+
+# Credentials and private keys
+*.key
+*.pem
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
