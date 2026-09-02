@@ -7,7 +7,7 @@
     "TASKHUB_NAME": "policyreviews",
     "AZURE_FUNCTIONS_AGENTS_PROVIDER": "foundry",
     "FOUNDRY_PROJECT_ENDPOINT": "",
-    "FOUNDRY_MODEL": "gpt-5.4-mini",
+    "FOUNDRY_MODEL": "gpt-4.1",
     "POLICY_REVIEW_CONTAINER": "policy-review-packets"
   }
 }
