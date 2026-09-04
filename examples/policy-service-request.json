@@ -1,38 +1,19 @@
 {
   "request_id": "PSR-2026-00042",
   "policy_id": "AUTO-100042",
-  "requested_change": {
-    "type": "add_driver",
-    "effective_date": "2026-09-15",
-    "details": {
-      "driver_name": "Jordan Lee",
-      "driver_license_last4": "4831"
-    }
-  },
+  "driver_name": "Jordan Lee",
   "documents": [
     {
       "document_id": "DOC-001",
-      "kind": "driver_license",
+      "type": "driver_license",
       "file_name": "jordan-lee-license.pdf",
       "status": "received"
     },
     {
       "document_id": "DOC-002",
-      "kind": "signed_request",
-      "file_name": "signed-policy-change.pdf",
-      "status": "received"
-    },
-    {
-      "document_id": "DOC-003",
-      "kind": "proof_of_residency",
-      "file_name": "proof-of-residency.pdf",
+      "type": "signed_request",
+      "file_name": "signed-request.pdf",
       "status": "missing"
-    },
-    {
-      "document_id": "DOC-004",
-      "kind": "customer_note",
-      "file_name": "customer-note.txt",
-      "status": "received"
     }
   ],
   "review_blob": "reviews/PSR-2026-00042.html"
