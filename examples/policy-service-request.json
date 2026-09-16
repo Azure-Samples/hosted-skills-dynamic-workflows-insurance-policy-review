@@ -1,0 +1,20 @@
+{
+  "request_id": "PSR-2026-00042",
+  "policy_id": "AUTO-100042",
+  "driver_name": "Jordan Lee",
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "type": "driver_license",
+      "file_name": "jordan-lee-license.pdf",
+      "status": "received"
+    },
+    {
+      "document_id": "DOC-002",
+      "type": "signed_request",
+      "file_name": "signed-request.pdf",
+      "status": "missing"
+    }
+  ],
+  "review_blob": "reviews/PSR-2026-00042.html"
+}
