@@ -1,4 +1,4 @@
-azurefunctions-agents-runtime==0.1.0b13
+azurefunctions-agents-runtime==0.1.0b14
 azure-identity>=1.25.3,<2
 azure-storage-blob>=12.28.0,<13
 azure-storage-queue>=12.13.0,<13
